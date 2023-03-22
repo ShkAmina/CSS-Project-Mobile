@@ -1,0 +1,100 @@
+.overlay
+{
+    position : absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+#BOX{ 
+    width: 408px;
+    height: 200px;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    font-weight:  bold;
+    font-size: large;
+    
+}
+.line{
+    margin-left: -100px;
+    margin-right: -1px;
+    border: 0.5px solid rgb(211, 204, 204);
+    size: 100%;
+    margin-top: 10px;
+}
+.input1{
+    height: 20px;
+    margin: 40px;
+    margin-left: 10px;
+    border: 1px solid black;
+ 
+}
+input#go{
+    margin-left: 22em;
+
+    padding: 5px;
+    background-color: #4c9ed9;
+    color: #ffffff;
+    border: 1px solid #111;
+
+}
+input#go:hover{
+    background-color:ffffff ;
+    color: #4c9ed9;
+    border: 1px solid #111;
+/* box-shadow: 0 0 10px blue; */
+}
+.fa-xmark{
+   /* margin-left: 9.5em; */
+   color:gray;
+}
+.fa-xmark:hover{
+    text-shadow: 0 0 20px black;
+}
+.blur{
+    
+    filter: blur(1px) ;
+}
+.side{
+   
+   display: flex;
+   justify-content: space-between;
+}
+.line1
+{
+    margin-left: -15px;
+    margin-right: -15px;
+    border: 0.5px solid rgb(211, 204, 204);
+    size: 100%;
+    margin-top: 10px;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) 
+{
+    #BOX{ 
+        width: 260px;
+        height: 200px;
+        padding: 15px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        color: black;
+        background-color: white;
+        font-weight:  bold;
+        font-size: large;
+        margin-top:200px;
+        
+    }
+    input#go{
+        margin-left: 14em;
+        padding: 5px;
+        background-color: #4c9ed9;
+        color: #ffffff;
+        border: 1px solid #111;
+    
+    }
+}
